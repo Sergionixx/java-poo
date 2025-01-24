@@ -13,7 +13,6 @@ public class StockManager {
         Car car = new Car(color,marca,modelo,precio);
         stock.add(car);
     }
-
     public List<Car> getStock(){
         return this.stock;
     }

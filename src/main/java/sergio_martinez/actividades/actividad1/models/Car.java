@@ -11,7 +11,6 @@ public class Car {
         this.modelo = modelo;
         this.precio = precio;
     }
-
     public String getModelo() {
         return modelo;
     }

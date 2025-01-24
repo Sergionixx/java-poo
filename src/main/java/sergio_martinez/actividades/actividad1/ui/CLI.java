@@ -15,7 +15,6 @@ public class CLI {
         System.out.println("3.Salir");
         System.out.println("===============================");
     }
-
     public static void runApp(){
         Scanner scanner = new Scanner(System.in);
         StockManager stockManager = new StockManager();
